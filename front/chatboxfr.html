@@ -1,0 +1,26 @@
+<link href="chatfr.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="chatfr.js"></script>
+<div class="chatBoxFront">
+	<p>Live Chat with Kmall Team<span class="fa fa-comments"></span></p>
+	<form id="startNewChat" enctype="multipart/form-data">
+		<p>Your Name :<input type="text" name="user" required="required"></p>
+		<p>Your Email:<input type="email" name="email" required="required"></p>			
+		<button type="button" class="btn" id="startChat">Start</button>
+	</form>	
+	<div class="panel-body" >
+		<div class="chatContent">
+			<div class="contentBox">
+				<table class="table table-striped">
+						
+			    </table>
+			</div>	
+			<hr>
+			<form id="chating" enctype="multipart/form-data">
+				<textarea type="text" name="content" id="enteredContent"></textarea>		
+				<button type="button" class="btn" id="sendContent">Send</button>
+			</form>			
+		</div>
+	</div>
+	
+</div>

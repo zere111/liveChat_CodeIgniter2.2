@@ -264,5 +264,19 @@ $("ol").on("click",".close",function(){
 	}
 });
 //autocheck new chat content every 1s
-autoReceive();
+//keypress test
+$("#enteredContent").keypress(function(event){
+	if(event.keyCode == 13){
+		var chatId=window.activeChat;
+		// var chatUser=window.runChatDataArr[0].user; 
+		 var chatUser= window.chatUser;  //frontend user is the chat service
+		 var newContent=$("textarea[name=content]").val();
+		 if(newContent){
+			 dateSet();
+			 sendContent(chatId,chatUser,newContent,window.currentDate,window.currentTime);
+		 }else{
+			 alert("Can't send blank message");
+		 }
+	}
+});
 });

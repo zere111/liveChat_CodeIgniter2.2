@@ -1,0 +1,10 @@
+.contentBox{
+	height:500px;
+	overflow-y:scroll;
+	border:solid 1px;
+}
+th{
+	min-width:100px;
+	word-break: break-all;
+	word-wrap:break-word;
+}

@@ -1,5 +1,5 @@
 var runChatDataArr = new Array(); //store all the running chat basic info
-var newChatDataArr = new Array();
+var newChatDataArr = new Array(); //store all the new chat content sent by the front/back end users
 var contentArr = new Array(); //store all the chat content
 var newContentArr = new Array(); //store all the new content
 var lastOldContentId = 0; //store the id of last received olf content

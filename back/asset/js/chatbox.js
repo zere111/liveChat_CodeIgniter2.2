@@ -10,6 +10,7 @@ var currentDate;
 var currentTime; 
 var activeChat; //store the chatid of actived chat
 //check if there is running chat
+//test
 function checkRunChat(){
 	$.ajax({
 		type:"GET",

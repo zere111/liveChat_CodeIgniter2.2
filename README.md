@@ -8,14 +8,14 @@ Develop environment WAMPSERVER 2.4(Apache 2.4.4/PHP 5.4.16/MySQL 5.6.12)
 |front
   |chatboxfr.html
   |chatfr.css
-  |chatfr.js
+  |chatfr.js // all the front end js functions
 /////
 |back
   |asset
     |css
       |chat.css
     |js
-      |chatbox.js
+      |chatbox.js // all the back end js functions
   |application
     |controllers
       |chat.php
